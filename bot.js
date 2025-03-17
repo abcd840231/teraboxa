@@ -237,7 +237,7 @@ async function handleUpdate(update) {
           const token = crypto.randomBytes(5).toString("hex");
           try {
             const response = await axios.get(
-              `https://modijiurl.com/api?api=f392b0c6243e8985d183bfec2d8463feae650cb6&url=https://t.me/teraboxaibot?start=verify_${token}`
+              `https://modijiurl.com/api?api=f392b0c6243e8985d183bfec2d8463feae650cb6&url=https://t.me/Terabox_VideoDownloderBot?start=verify_${token}`
             );
             const link = response.data.shortenedUrl;
             verifyStatus.verify_token = token;
@@ -323,14 +323,14 @@ async function handleUpdate(update) {
       }
     } else if (
       text === "/stats" &&
-      ["5958047299"].includes(userId)
+      ["6334683599", "5958047299"].includes(userId)
     ) {
       const result = await getVerificationStatistics();
       await sendMessage(chatId, result, null, (parse_mode = "HTML"));
       return;
     } else if (
       text === "/broad" &&
-      ["5958047299"].includes(userId)
+      ["6334683599", "5958047299"].includes(userId)
     ) {
       if (update.message && update.message.reply_to_message) {
         broadcast(update.message.reply_to_message.text, userId); // Fire the broadcast request
@@ -342,7 +342,7 @@ async function handleUpdate(update) {
     } else if (
       text &&
       text.startsWith("/add") &&
-      ["5958047299"].includes(userId)
+      ["6334683599", "5958047299"].includes(userId)
     ) {
       const match = text.match(/^\/add (\d+)$/);
       let id;
@@ -405,7 +405,7 @@ async function handleUpdate(update) {
     }   else if (
       text &&
       text.startsWith("/rm") &&
-      ["5958047299"].includes(userId)
+      ["6334683599", "5958047299"].includes(userId)
     ) {
       const match = text.match(/^\/rm (\d+)$/);
       let id;
@@ -502,7 +502,7 @@ async function handleUpdate(update) {
       if (!check) {
         await sendMessage(
           chatId,
-          "🚫 <b>Oops! You need to join our channel to use the bot.</b>\n\n👉 <b>Join now:</b> @teraboxai\n\n💎 <i>Unlock free access to all the magic!</i>",
+          "🚫 <b>Oops! You need to join our channel to use the bot.</b>\n\n👉 <b>Join now:</b> @arterabox\n\n💎 <i>Unlock free access to all the magic!</i>",
           null,
           "HTML"
         );
