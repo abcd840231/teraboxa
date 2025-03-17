@@ -42,7 +42,7 @@ async function dbVerifyStatus(userId) {
         return JSON.parse(verifyStatus);
       } catch (parseError) {
         console.error(`Invalid JSON in verify_status for user ${userId}: ${verifyStatus}`);
-        return defaultVerify; // Fallback to default if JSON is invalid
+        return defaultVerify;
       }
     }
     return defaultVerify;
