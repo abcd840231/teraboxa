@@ -577,7 +577,7 @@ async function handleUpdate(update) {
         const mesid = ch.message_id;
         await sleep(500);
         await deleteMessage(chatId, mesid);
-        await axios.post("deployed python api url here", {
+        await axios.post("http://82.25.105.146:5000/send_message", {
           user_id: chatId,
           url: text,
           mention: userMention,
