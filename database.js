@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 // MongoDB connection setup
 const uri = 'mongodb+srv://ani901696:6HkCOHW0lgarjDCI@cluster0.kv1dv.mongodb.net/?retryWrites=true&w=majority'; // Adjust this URI as needed
 const client = new MongoClient(uri);
-const dbName = 'teraboxaibot';
+const dbName = 'teraboxaiot';
 let db;
 
 // Connect to MongoDB
