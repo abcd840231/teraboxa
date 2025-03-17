@@ -257,7 +257,7 @@ async function handleUpdate(update) {
                 [
                   {
                     text: "𝙃𝙤𝙬 𝙩𝙤 𝙑𝙚𝙧𝙞𝙛𝙮 🎥",
-                    url: "https://t.me/ARFileToLinkRoBot/?start=ODIwODc1Nzk2MjU0MDY4MjAwMC8yNDY1MzAwNDY3",
+                    url: "https://t.me/linkhelpmodiji/2",
                   },
                 ],
               ],
