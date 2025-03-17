@@ -502,7 +502,7 @@ async function handleUpdate(update) {
       if (!check) {
         await sendMessage(
           chatId,
-          "🚫 <b>Oops! You need to join our channel to use the bot.</b>\n\n👉 <b>Join now:</b> @arterabox\n\n💎 <i>Unlock free access to all the magic!</i>",
+          "🚫 <b>Oops! You need to join our channel to use the bot.</b>\n\n👉 <b>Join now:</b> @teraboxai\n\n💎 <i>Unlock free access to all the magic!</i>",
           null,
           "HTML"
         );
