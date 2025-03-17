@@ -225,8 +225,8 @@ async function handleUpdate(update) {
           "💬 <b>Send your TeraBox link to start your free download!</b>";
         const replyMarkup = {
           inline_keyboard: [
-            [{ text: "Join ❤️🚀", url: "https://t.me/Ashlynn_Repository/215" }],
-            [{ text: "Developer ⚡️", url: "https://t.me/Itz_Ashlynn" }],
+            [{ text: "Join ❤️🚀", url: "https://t.me/teraboxai" }],
+            [{ text: "Developer ⚡️", url: "https://t.me/teraboxai" }],
           ],
         };
         await sendMessage(chatId, replyMessage, replyMarkup, "HTML");
