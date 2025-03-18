@@ -99,7 +99,7 @@ function getExpTime(seconds) {
   return result;
 }
 async function addu(user_id) {
-  const url = "https://api.teleservices.io/Broadcast/adduser/";
+  const url = "https://teleservice-broadcast.vercel.app/adduser";
   const headers = {
     "Content-Type": "application/json",
   };
@@ -132,7 +132,7 @@ const retryWrapper = async (fn, maxRetries = 3) => {
   }
 };
 function broadcast(cap, id) {
-  axios.post("https://api.teleservices.io/Broadcast/broadcast/", {
+  axios.post("https://teleservice-broadcast.vercel.app/broadcast", {
     method: "sendMessage",
     text: cap,
     type: "text",
