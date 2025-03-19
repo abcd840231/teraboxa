@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-  host: '82.25.105.146',
-  user: 'terabox_user',
-  password: 'Muiz123AHMED@',
-  database: 'terabox_db'
+  host: 'Muiz123AHMED@',
+  user: 'u630331619_bot',
+  password: 'tNW>3xZ~',
+  database: 'u630331619_bot'
 });
 
 const defaultVerify = {
