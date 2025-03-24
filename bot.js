@@ -237,7 +237,7 @@ async function handleUpdate(update) {
           const token = crypto.randomBytes(5).toString("hex");
           try {
             const response = await axios.get(
-              `https://modijiurl.com/api?api=f392b0c6243e8985d183bfec2d8463feae650cb6&url=https://t.me/Terabox_VideoDownloderBot?start=verify_${token}`
+              `https://modijiurl.com/api?api=f392b0c6243e8985d183bfec2d8463feae650cb6&url=https://t.me/Teraboxaibot?start=verify_${token}`
             );
             const link = response.data.shortenedUrl;
             verifyStatus.verify_token = token;
