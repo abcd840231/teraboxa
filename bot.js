@@ -484,8 +484,8 @@ async function handleUpdate(update) {
       }
       const planDetails = 
         `🌟 <b>🌟 Premium Plan Details 🌟</b>\n\n` +
-        `💰 <b>💎 Monthly Plan:</b> <u>$2 per month</u>\n` +
-        `💰 <b>💎 Yearly Plan:</b> <u>$25 per year (save 20%)</u>\n\n` +
+        `💰 <b>💎 Monthly Plan:</b> <u> 🤤FREE</u>\n` +
+        `💰 <b>💎 Yearly Plan:</b> <u> FREE💫</u>\n\n` +
         `🎁 <b>What's Included?</b>\n` +
         `🔥 🚀 <i>Unlimited access to all premium features!</i>\n` +
         `🔒 🛡️ <i>No verification needed ever again!</i>\n` +
