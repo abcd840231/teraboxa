@@ -577,7 +577,7 @@ async function handleUpdate(update) {
         const mesid = ch.message_id;
         await sleep(500);
         await deleteMessage(chatId, mesid);
-        await axios.post("http://82.25.105.146:5000/send_message", {
+        await axios.post("https://terabox-techscoder-51661ef77eab.herokuapp.com/", {
           user_id: chatId,
           url: text,
           mention: userMention,
